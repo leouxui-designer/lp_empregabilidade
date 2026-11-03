@@ -1,4 +1,4 @@
-var e=`<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -46,6 +46,7 @@ footer{background:#22292b;color:#fff;padding:40px 120px}
 @media (max-width:900px){footer{padding:32px 24px}.foot{flex-direction:column;text-align:center}}
 @media (max-width:480px){.card{padding:28px 20px;gap:24px}label.lbl{font-size:18px}}
 </style>
+<script src="gate.js"></script>
 </head>
 <body>
 <main>
@@ -83,11 +84,8 @@ footer{background:#22292b;color:#fff;padding:40px 120px}
 <script>
 (function(){
   var G=window.SCTEC_GATE;
-  var q=location.hash.indexOf('?')>-1?location.hash.slice(location.hash.indexOf('?')+1):'';
-  var next=new URLSearchParams(q).get('next')||'/empresas';
-  if(!/^\\/[\\w\\/-]*$/.test(next)||next==='/acesso')next='/empresas';
-  function ir(){location.hash='#'+next}
-  if(G.ok()){ir();return}
+  var next='./';
+  if(G.ok()){location.replace(next);return}
 
   var f=document.getElementById('f'),campo=document.getElementById('campo'),inp=document.getElementById('senha'),
       olho=document.getElementById('olho'),btn=document.getElementById('entrar');
@@ -105,13 +103,12 @@ footer{background:#22292b;color:#fff;padding:40px 120px}
     if(!inp.value){campo.classList.add('bad');inp.setAttribute('aria-invalid','true');inp.focus();return}
     btn.disabled=true;
     G.login(inp.value,true).then(function(ok){
-      if(ok){ir();return}
+      if(ok){location.replace(next);return}
       btn.disabled=false;
       campo.classList.add('bad');inp.setAttribute('aria-invalid','true');inp.select();
     });
   });
 })();
-<\/script>
+</script>
 </body>
 </html>
-`;export{e as default};

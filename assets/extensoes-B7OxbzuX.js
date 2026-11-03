@@ -1,0 +1,1 @@
+await new Promise(e=>{let t=document.createElement(`script`);t.src=`gate.js`,t.onload=t.onerror=()=>e(),document.head.appendChild(t)}),window.SCTEC_GATE?.ok()||window.top?.location.replace(`acesso.html`);var e={};export{e as default};
