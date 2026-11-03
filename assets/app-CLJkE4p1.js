@@ -1,6 +1,15 @@
 var e=`(function(){
   var $=function(s,c){return (c||document).querySelector(s)}, $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
 
+  // Âncoras da página (#interesse, #conteudo): na casca o hash do endereço é a rota do protótipo, então em vez de trocar o hash rola até o elemento.
+  if(!window.SCTEC_ANCORAS){window.SCTEC_ANCORAS=true;document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href^="#"]'); if(!a) return;
+    var id=a.getAttribute('href').slice(1); if(!id||id.charAt(0)==='/') return;
+    var alvo=document.getElementById(id); if(!alvo) return;
+    e.preventDefault(); alvo.style.scrollMarginTop='96px';
+    alvo.scrollIntoView({behavior:'instant',block:'start'}); alvo.setAttribute('tabindex','-1'); alvo.focus({preventScroll:true});
+  })}
+
   // header do SCTEC: menu mobile e posição sob a barra gov
   var tg=$('.navbar-toggler'), col=$('#navbarNavDropdown'), topo=$('header.topo');
   if(tg&&col) tg.addEventListener('click',function(){var o=col.classList.toggle('show');tg.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-mobile-open',o)});
