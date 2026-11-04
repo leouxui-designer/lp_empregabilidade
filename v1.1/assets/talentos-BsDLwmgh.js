@@ -96,44 +96,44 @@ var e=`<!doctype html>\r
       <h2 id="h-tal">Quer ser visto pelas empresas?</h2>\r
       <p class="lead">O caminho depende de onde você está na sua jornada. Selecione abaixo sua situação atual e veja exatamente o que fazer.</p>\r
     </div>\r
-    <h3 id="q-sit">Qual é a sua situação?</h3>\r
-    <div class="seg" role="tablist" aria-labelledby="q-sit" id="seg">\r
-      <button role="tab" id="t1" aria-controls="p1" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Ainda não sou aluno do SCTEC</b><span class="s">Quero entender como ingressar no Carreira Tech</span></span></button>\r
-      <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Sou aluno do SCTEC no Carreira Tech</b><span class="s">Ainda não concluí a etapa Profissionalizar do Carreira Tech</span></span></button>\r
-      <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Já concluí o SCTEC</b><span class="s">Sou egresso da etapa Profissionalizar do Carreira Tech</span></span></button>\r
-    </div>\r
-\r
-    <div class="t-stage">\r
-    <div class="panel t-panel" id="p1" role="tabpanel" aria-labelledby="t1" tabindex="0" hidden>\r
-      <div class="t-photo"><img src="assets/foto-ainda-nao-fiz.png" alt="Jovem concentrado programando diante de monitores com código" loading="lazy"></div>\r
-      <div class="t-body">\r
-        <h3>Comece pelo Carreira Tech</h3>\r
-        <p class="t-lead">O banco de talentos é só para quem estuda ou estudou na etapa Profissionalizar do Carreira Tech do Programa SCTEC.</p>\r
-        <ol class="t-steps"><li><b>Escolha sua trilha</b><span>Conheça os cursos.</span></li><li><b>Matricule-se</b><span>Entre no próximo ciclo.</span></li><li><b>Volte aqui</b><span>Manifeste interesse ao cursar ou concluir.</span></li></ol>\r
-        <div class="t-cta"><a class="btn" href="https://sctec.scti.sc.gov.br/" target="_blank" rel="noopener">Conhecer o Carreira Tech <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>\r
+    <div class="seg" role="tablist" aria-label="Sua situação" id="seg">\r
+      <div class="seg-item" role="presentation">\r
+        <button role="tab" id="t1" aria-controls="p1" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Ainda não sou aluno do SCTEC</b><span class="s">Quero entender como ingressar no Carreira Tech</span></span></button>\r
+        <div class="panel t-panel" id="p1" role="tabpanel" aria-labelledby="t1" tabindex="0" hidden>\r
+          <div class="t-photo"><img src="assets/foto-ainda-nao-fiz.png" alt="Jovem concentrado programando diante de monitores com código" loading="lazy"></div>\r
+          <div class="t-body">\r
+            <h3>Comece pelo Carreira Tech</h3>\r
+            <p class="t-lead">O banco de talentos é só para quem estuda ou estudou na etapa Profissionalizar do Carreira Tech do Programa SCTEC.</p>\r
+            <ol class="t-steps"><li><b>Escolha sua trilha</b><span>Conheça os cursos.</span></li><li><b>Matricule-se</b><span>Entre no próximo ciclo.</span></li><li><b>Volte aqui</b><span>Manifeste interesse ao cursar ou concluir.</span></li></ol>\r
+            <div class="t-cta"><a class="btn" href="https://sctec.scti.sc.gov.br/" target="_blank" rel="noopener">Conhecer o Carreira Tech <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>\r
+          </div>\r
+        </div>\r
+      </div>\r
+      <div class="seg-item" role="presentation">\r
+        <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Sou aluno do SCTEC no Carreira Tech</b><span class="s">Ainda não concluí a etapa Profissionalizar do Carreira Tech</span></span></button>\r
+        <div class="panel t-panel" id="p2" role="tabpanel" aria-labelledby="t2" tabindex="0" hidden>\r
+          <div class="t-photo"><img src="assets/foto-perfil.png" alt="Aluna estudando no notebook" loading="lazy"></div>\r
+          <div class="t-body">\r
+            <h3>Registre seu interesse</h3>\r
+            <p class="t-lead">Ao concluir a etapa Profissionalizar, a equipe SCTEC poderá incluir o seu perfil no banco de talentos.</p>\r
+            <ol class="t-steps"><li><b>Manifeste interesse</b><span>Preencha o formulário.</span></li><li><b>Conclua o curso</b><span>Siga até o final da turma.</span></li><li><b>Acompanhe seu e-mail</b><span>A equipe avisa os próximos passos.</span></li></ol>\r
+            <div class="t-cta"><a class="btn" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Manifestar interesse <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>\r
+          </div>\r
+        </div>\r
+      </div>\r
+      <div class="seg-item" role="presentation">\r
+        <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1"><span class="dot" aria-hidden="true"></span><span><b>Já concluí o SCTEC</b><span class="s">Sou egresso da etapa Profissionalizar do Carreira Tech</span></span></button>\r
+        <div class="panel t-panel" id="p3" role="tabpanel" aria-labelledby="t3" tabindex="0" hidden>\r
+          <div class="t-photo"><img src="assets/hero-thumb.png" alt="Profissionais cumprimentando-se em um escritório" loading="lazy"></div>\r
+          <div class="t-body">\r
+            <h3>O SCTEC adiciona você</h3>\r
+            <p class="t-lead">Você não precisa se cadastrar sozinho: basta manifestar interesse.</p>\r
+            <ol class="t-steps"><li><b>Manifeste interesse</b><span>Preencha o formulário.</span></li><li><b>Entrada no banco</b><span>A equipe inclui seu perfil.</span></li><li><b>Acesso por e-mail</b><span>Receba os dados de acesso.</span></li></ol>\r
+            <div class="t-cta"><a class="btn btn--outline" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Manifestar interesse <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="btn" id="portalBtn" data-portal>Acessar Portal de Talentos <span class="badge">Em breve</span></a></div>\r
+          </div>\r
+        </div>\r
       </div>\r
     </div>\r
-\r
-    <div class="panel t-panel" id="p2" role="tabpanel" aria-labelledby="t2" tabindex="0" hidden>\r
-      <div class="t-photo"><img src="assets/foto-perfil.png" alt="Aluna estudando no notebook" loading="lazy"></div>\r
-      <div class="t-body">\r
-        <h3>Registre seu interesse</h3>\r
-        <p class="t-lead">Ao concluir a etapa Profissionalizar, a equipe SCTEC poderá incluir o seu perfil no banco de talentos.</p>\r
-        <ol class="t-steps"><li><b>Manifeste interesse</b><span>Preencha o formulário.</span></li><li><b>Conclua o curso</b><span>Siga até o final da turma.</span></li><li><b>Acompanhe seu e-mail</b><span>A equipe avisa os próximos passos.</span></li></ol>\r
-        <div class="t-cta"><a class="btn" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Manifestar interesse <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>\r
-      </div>\r
-    </div>\r
-\r
-    <div class="panel t-panel" id="p3" role="tabpanel" aria-labelledby="t3" tabindex="0" hidden>\r
-      <div class="t-photo"><img src="assets/hero-thumb.png" alt="Profissionais cumprimentando-se em um escritório" loading="lazy"></div>\r
-      <div class="t-body">\r
-        <h3>O SCTEC adiciona você</h3>\r
-        <p class="t-lead">Você não precisa se cadastrar sozinho: basta manifestar interesse.</p>\r
-        <ol class="t-steps"><li><b>Manifeste interesse</b><span>Preencha o formulário.</span></li><li><b>Entrada no banco</b><span>A equipe inclui seu perfil.</span></li><li><b>Acesso por e-mail</b><span>Receba os dados de acesso.</span></li></ol>\r
-        <div class="t-cta"><a class="btn btn--outline" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Manifestar interesse <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="btn" id="portalBtn" data-portal>Acessar Portal de Talentos <span class="badge">Em breve</span></a></div>\r
-      </div>\r
-    </div>\r
-    </div><!-- /t-stage -->\r
   </div>\r
 </section>\r
 \r

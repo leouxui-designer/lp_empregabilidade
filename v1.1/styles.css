@@ -738,3 +738,13 @@ main .t-body h3{font-size:30px;line-height:1.1;letter-spacing:-1px;margin:0 0 12
 .e-edital-link{margin:0}
 .e-edital-link a{font-weight:600;color:inherit;text-decoration:underline}
 @media (max-width:767px){.hero-cta{flex-direction:column}.hero-text .hero-cta .btn{width:100%;justify-content:center}}
+/* v1.1: opções de talentos empilhadas; o card abre logo abaixo da opção escolhida */
+.seg,.seg-item{display:grid;gap:8px}
+.seg{grid-template-columns:minmax(0,1fr);max-width:880px;margin-inline:auto}
+@media (min-width:760px){.seg{grid-template-columns:minmax(0,1fr)}}
+.seg-item .panel{margin-top:0}
+/* v1.1: hierarquia da seção de talentos — título da seção > título do card > opções */
+.seg b{font-size:1.125rem}
+.seg span.s{font-size:.95rem}
+.seg{margin-top:8px}
+@media (min-width:992px){main .t-body h3{font-size:30px}.t-lead{font-size:17px}}
