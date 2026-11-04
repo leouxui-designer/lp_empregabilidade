@@ -730,3 +730,11 @@ main .t-body h3{font-size:30px;line-height:1.1;letter-spacing:-1px;margin:0 0 12
 .topo .options{gap:8px}
 .topo .container-header{max-width:1600px}
 .portal-entry--link.is-soon{cursor:not-allowed}
+
+/* v1.1: edital em destaque */
+.hero-cta{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:stretch}
+.hero-text .hero-cta .btn{box-sizing:border-box}
+.hero-text .btn svg{width:28px;height:28px;display:block}
+.e-edital-link{margin:0}
+.e-edital-link a{font-weight:600;color:inherit;text-decoration:underline}
+@media (max-width:767px){.hero-cta{flex-direction:column}.hero-text .hero-cta .btn{width:100%;justify-content:center}}
