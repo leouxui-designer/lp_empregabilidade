@@ -37,7 +37,7 @@
   }
   var seg=$('#seg');
   if(seg){
-    tabs(seg);
+    tabs(seg,function(t){t.scrollIntoView({block:'nearest'})});
     $('#t1').tabIndex=0;
   }
 
