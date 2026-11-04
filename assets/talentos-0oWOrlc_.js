@@ -127,7 +127,7 @@ var e=`<!doctype html>\r
           <div class="t-photo"><img src="assets/hero-thumb.png" alt="Profissionais cumprimentando-se em um escritório" loading="lazy"></div>\r
           <div class="t-body">\r
             <h3>O SCTEC adiciona você</h3>\r
-            <p class="t-lead">Você não precisa se cadastrar sozinho: basta manifestar interesse.</p>\r
+            <p class="t-lead">Manifeste seu interesse e nossa equipe fará seu cadastro inicial no Banco de Talentos.</p>\r
             <ol class="t-steps"><li><b>Manifeste interesse</b><span>Preencha o formulário.</span></li><li><b>Entrada no banco</b><span>A equipe inclui seu perfil.</span></li><li><b>Acesso por e-mail</b><span>Receba os dados de acesso.</span></li></ol>\r
             <div class="t-cta"><a class="btn btn--outline" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Manifestar interesse <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="btn" id="portalBtn" data-portal>Acessar Portal de Talentos <span class="badge">Em breve</span></a></div>\r
           </div>\r
@@ -144,7 +144,7 @@ var e=`<!doctype html>\r
       <h3><button aria-expanded="false" aria-controls="b1" id="r1">Quem não fez o Carreira Tech pode entrar no banco de talentos?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>\r
       <div class="ans" id="b1" role="region" aria-labelledby="r1" hidden><p>Não. O banco de talentos é exclusivo para alunos e ex-alunos do Carreira Tech do SCTEC. Novas turmas são divulgadas no <a href="https://sctec.scti.sc.gov.br/" target="_blank" rel="noopener">site do Carreira Tech</a>.</p></div>\r
       <h3><button aria-expanded="false" aria-controls="b2" id="r2">Eu mesmo faço meu cadastro no banco de talentos?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>\r
-      <div class="ans" id="b2" role="region" aria-labelledby="r2" hidden><p>Não. Você manifesta interesse pelo formulário e a equipe SCTEC inclui o seu perfil no banco de talentos.</p></div>\r
+      <div class="ans" id="b2" role="region" aria-labelledby="r2" hidden><p>Não. Você manifesta interesse pelo formulário e a equipe SCTEC faz seu cadastro inicial no Banco de Talentos. Depois, você vai receber seu acesso para adicionar todas as informações no seu perfil.</p></div>\r
       <h3><button aria-expanded="false" aria-controls="b3" id="r3">Estou cursando. Já posso manifestar interesse?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>\r
       <div class="ans" id="b3" role="region" aria-labelledby="r3" hidden><p>Sim. Quando você concluir, a equipe poderá incluir o seu perfil.</p></div>\r
       <h3><button aria-expanded="false" aria-controls="b4" id="r4">Como vou receber informações e o acesso ao portal?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>\r
