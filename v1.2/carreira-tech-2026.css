@@ -76,17 +76,13 @@
 }
 .carreira-tech-2026 .hero-description {
   max-width: 758px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6b7280;
   margin-bottom: 16px;
-}
-@media screen and (max-width: 768px) {
-  .carreira-tech-2026 .hero-description {
-    font-size: 16px;
-  }
 }
 .carreira-tech-2026 .hero-cta {
   display: flex;

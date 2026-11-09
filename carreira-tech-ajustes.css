@@ -1440,7 +1440,4 @@ main.carreira-tech-2026 .trilha-etapas[hidden] { display: none; }
 }
 
 /* Descrição da hero: tamanho e peso da produção, preenchendo a largura até a margem */
-main.carreira-tech-2026 .hero-intro .hero-description { width: 100%; max-width: none; font-family: Montserrat, sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; color: rgba(0, 0, 0, 0.8); }
-@media screen and (max-width: 768px) {
-  main.carreira-tech-2026 .hero-intro .hero-description { font-size: 16px; line-height: 1.6; }
-}
+main.carreira-tech-2026 .hero-intro .hero-description { width: 100%; max-width: none; font-family: Roboto, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; color: #6b7280; }
