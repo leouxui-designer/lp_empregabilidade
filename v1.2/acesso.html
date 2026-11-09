@@ -84,9 +84,9 @@ footer{background:#22292b;color:#fff;padding:40px 120px}
 <script>
 (function(){
   var G=window.SCTEC_GATE;
-  // Volta para o endereço de origem (por exemplo ?modo=cliente#p=...); só aceita o formato ?consulta#hash, nada de outro site.
+  // Volta para o endereço de origem (por exemplo carreira-tech/v1.0/?x=1#p=...); só aceita caminho relativo simples + ?consulta + #hash, nada de outro site.
   var alvo=new URLSearchParams(location.search).get('next')||'';
-  var next=/^(\?[\w=&%.-]*)?(#[\w=&%.\/-]*)?$/.test(alvo)?'./'+alvo:'./';
+  var next=/^((?:\.\.\/)*(?:[a-z0-9-]+\/|v\d[\d.]*\/)*)(\?[\w=&%.-]*)?(#[\w=&%.\/-]*)?$/.test(alvo)?'./'+alvo:'./';
   if(G.ok()){location.replace(next);return}
 
   var f=document.getElementById('f'),campo=document.getElementById('campo'),inp=document.getElementById('senha'),

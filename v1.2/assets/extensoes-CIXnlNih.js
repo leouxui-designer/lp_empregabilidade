@@ -1,1 +1,0 @@
-if(await new Promise(e=>{let t=document.createElement(`script`);t.src=`gate.js`,t.onload=t.onerror=()=>e(),document.head.appendChild(t)}),!window.SCTEC_GATE?.ok()){let e=window.top??window;e.location.replace(`acesso.html?next=${encodeURIComponent(e.location.search+e.location.hash)}`)}var e={};export{e as default};

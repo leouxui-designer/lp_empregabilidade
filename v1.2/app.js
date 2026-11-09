@@ -10,6 +10,11 @@
     alvo.scrollIntoView({behavior:'instant',block:'start'}); alvo.setAttribute('tabindex','-1'); alvo.focus({preventScroll:true});
   })}
 
+  // Links que ainda não existem no protótipo (href="#") ficam parados: só navegam os links das telas do protótipo (#/rota).
+  if(!window.SCTEC_LINKS_VAZIOS){window.SCTEC_LINKS_VAZIOS=true;document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href="#"]'); if(a) e.preventDefault();
+  })}
+
   // header do SCTEC: menu mobile e posição sob a barra gov
   var tg=$('.navbar-toggler'), col=$('#navbarNavDropdown'), topo=$('header.topo');
   if(tg&&col) tg.addEventListener('click',function(){var o=col.classList.toggle('show');tg.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-mobile-open',o)});
