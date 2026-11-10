@@ -36,12 +36,6 @@
         });
     }
 
-    // botão "Ver etapas da trilha": abre o modal com a imagem da jornada da trilha do botão
-    function abrirJornada(botao) {
-        var img = document.getElementById('modal-ver-caminho-completo-img');
-        if (img) img.src = botao.getAttribute('data-journey-img');
-    }
-
     function definirTrilha(trilha) {
         document.querySelectorAll('.etapa-painel[data-trilha]').forEach(function (p) {
             p.classList.toggle('active', p.dataset.trilha === trilha);
@@ -61,7 +55,7 @@
 
     document.addEventListener('click', function (e) {
         var alvo;
-        if ((alvo = e.target.closest('.js-abrir-jornada'))) abrirJornada(alvo);
+        if ((alvo = e.target.closest('.js-toggle-etapas'))) alternarEtapas(alvo);
         else if ((alvo = e.target.closest('.etapa-gatilho'))) alternarEtapa(alvo);
         else if ((alvo = e.target.closest('.etapa-subaba'))) ativarSubaba(alvo);
     });
