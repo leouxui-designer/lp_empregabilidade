@@ -471,6 +471,8 @@ main a.btn{color:#fff}main a.btn.alt{color:#141414}
 /* shell additions */
 .nav-links a[aria-current=page]{color:#1F8832;font-weight:700}
 .collapse:not(.show){display:none}
+/* a casca (Tailwind) define .collapse{visibility:collapse}, que deixaria o menu aberto invisível */
+.collapse.show,.navbar-collapse.show{visibility:visible}
 @media (min-width:1540px){.topo .navbar-collapse{display:none!important}}
 @media (min-width:992px) and (max-width:1539px){.topo .navbar.d-lg-none{display:flex!important}.topo .container-header.d-lg-flex{display:none!important}}
 .rodape a:focus-visible,.topo a:focus-visible,.topo button:focus-visible{outline:3px solid #7ab934;outline-offset:2px}
@@ -718,7 +720,8 @@ main .t-body h3{font-size:30px;line-height:1.1;letter-spacing:-1px;margin:0 0 12
 .topo .portal-entry.is-soon{border-color:#767c80;color:#5b6166;cursor:not-allowed}
 .topo .portal-entry.is-soon:hover{background:transparent}
 .topo .options{align-items:center}
-.topo .portal-entry--menu{display:flex;margin:16px 16px 12px}
+.topo .portal-entry--menu{display:flex;flex-direction:row;flex-wrap:wrap;gap:6px 8px;margin:16px 0 12px;padding:14px 16px;white-space:normal;text-align:center;line-height:1.2;box-sizing:border-box}
+.topo .navbar-collapse{padding-bottom:96px}
 .portal-entry--link{cursor:pointer;font-weight:600;text-decoration:none}
 .portal-entry--link .portal-entry__txt{color:#1F8832;text-decoration:underline;text-underline-offset:3px}
 .has-account{margin:12px 0 0;font-size:.95rem;color:var(--ink-2)}

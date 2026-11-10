@@ -16,9 +16,14 @@
   })}
 
   // header do SCTEC: menu mobile e posição sob a barra gov
-  var tg=$('.navbar-toggler'), col=$('#navbarNavDropdown'), topo=$('header.topo');
-  if(tg&&col) tg.addEventListener('click',function(){var o=col.classList.toggle('show');tg.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-mobile-open',o)});
-  function pos(){if(topo) topo.style.top=Math.max(0,60-window.scrollY)+'px'}
+  // Delegado no document: na casca a tela é injetada depois deste script, então o botão ainda não existe aqui.
+  function fechaMenu(){var c=$('#navbarNavDropdown'),b=$('.navbar-toggler');if(c)c.classList.remove('show');if(b)b.setAttribute('aria-expanded','false');document.body.classList.remove('menu-mobile-open')}
+  if(!window.SCTEC_MENU_MOBILE){window.SCTEC_MENU_MOBILE=true;document.addEventListener('click',function(e){
+    var t=e.target.closest&&e.target.closest('.navbar-toggler');
+    if(t){var col=$('#navbarNavDropdown'); if(!col) return; var o=col.classList.toggle('show');t.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-mobile-open',o);return}
+    if(e.target.closest&&e.target.closest('#navbarNavDropdown a:not([data-portal])')) fechaMenu();
+  })}
+  function pos(){var topo=$('header.topo'); if(topo) topo.style.top=Math.max(0,60-window.scrollY)+'px'}
   window.addEventListener('scroll',pos,{passive:true});pos();
   var nl=$('#_form_6AE1BDD309B06_'); if(nl) nl.addEventListener('submit',function(e){e.preventDefault()});
 
