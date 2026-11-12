@@ -389,7 +389,6 @@
   gap: 24px;
 }
 .ctn-acervo .ctn-videos > div {
-  grid-column: auto;
   min-width: 0;
   padding: 0;
   width: 100%;

@@ -270,3 +270,8 @@ body{font-family: Roboto, sans-serif;}
 
 .skip{position:absolute;left:-999px;top:8px;background:#fff;padding:10px 14px;z-index:100;border:2px solid #1d4ed8}
 .skip:focus{left:8px}
+
+/* v1.3: rodapé igual à homologação (bloco Instagram) */
+.rodape .redes-sociais .provisorio .arrobas{font-size:18px;font-weight:700}
+.rodape .redes-sociais .provisorio .arrobas a{color:inherit}
+@media screen and (min-width:821px){.rodape .redes-sociais .provisorio{text-align:right}}

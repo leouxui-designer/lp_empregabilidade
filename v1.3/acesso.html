@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Acesso | Portal de Talentos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{display:flex;flex-direction:column;min-height:100vh;background:#fff;font-family:Roboto,sans-serif;color:#000}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 16px}
+.card{width:100%;max-width:440px;display:flex;flex-direction:column;gap:32px;padding:40px;background:#fff;border:1px solid #e5e7eb;border-radius:20px;box-shadow:0 12px 16px rgba(0,0,0,.04)}
+.head{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.head h1{margin:0;line-height:0}
+.head h1 img{display:block;width:179px;height:auto;aspect-ratio:4096/1100}
+form{display:flex;flex-direction:column;gap:32px}
+.fields{display:flex;flex-direction:column;gap:20px}
+.field{display:flex;flex-direction:column;gap:12px}
+label.lbl{font:600 20px/normal Roboto,sans-serif;color:rgba(0,0,0,.8)}
+.input{display:flex;align-items:center;gap:12px;padding:16px 20px;border:1px solid #bfbfbf;border-radius:20px;background:#fff}
+.input:focus-within{border-color:#2ca942;box-shadow:0 0 0 3px rgba(44,169,66,.18)}
+.input input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:400 16px/1.5 Roboto,sans-serif;color:#000;padding:0}
+.input input::placeholder{color:rgba(0,0,0,.4)}
+.eye{flex:none;width:24px;height:24px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center;color:#171717}
+.eye svg{width:24px;height:24px}
+.eye .off{display:none}
+.eye[aria-pressed=true] .on{display:none}
+.eye[aria-pressed=true] .off{display:block}
+.err{display:none;margin:0;font:500 14px/1.4 Roboto,sans-serif;color:#d92d20}
+.field.bad .input{border-color:#d92d20}
+.field.bad .err{display:block}
+.submit{width:100%;padding:16px 28px;border:0;border-radius:80px;cursor:pointer;background:linear-gradient(162deg,rgb(44,169,66) 25%,rgb(85,177,58) 52.5%,rgb(82,185,52) 75%);color:#fff;font:600 16px/16px Roboto,sans-serif}
+.submit:hover{filter:brightness(.92)}
+.submit:disabled{opacity:.7;cursor:progress}
+.submit:focus-visible{outline:3px solid #7ab934;outline-offset:2px}
+footer{background:#22292b;color:#fff;padding:40px 120px}
+.foot{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.foot b{display:block;font:800 18px/normal Roboto,sans-serif}
+.foot span{display:block;margin-top:4px;font:400 14px/normal Roboto,sans-serif}
+.logos{display:flex;align-items:center;gap:24px}
+.logos img{display:block;height:32px;width:auto}
+@media (max-width:900px){footer{padding:32px 24px}.foot{flex-direction:column;text-align:center}}
+@media (max-width:480px){.card{padding:28px 20px;gap:24px}label.lbl{font-size:18px}}
+</style>
+<script src="gate.js"></script>
+</head>
+<body>
+<main>
+  <section class="card" aria-labelledby="titulo">
+    <div class="head">
+      <h1 id="titulo"><img src="assets/logo-header.png" alt="SCTEC" width="179" height="48"></h1>
+    </div>
+    <form id="f" novalidate>
+      <div class="fields">
+        <div class="field" id="campo">
+          <label class="lbl" for="senha">Senha</label>
+          <div class="input">
+            <input id="senha" name="senha" type="password" autocomplete="current-password" autofocus required aria-describedby="erro">
+            <button type="button" class="eye" id="olho" aria-label="Mostrar senha" aria-pressed="false">
+              <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.06 12.35a1 1 0 0 1 0-.7C3.42 7.51 7.36 4.5 12 4.5s8.57 3.01 9.94 7.15a1 1 0 0 1 0 .7C20.58 16.49 16.64 19.5 12 19.5s-8.57-3.01-9.94-7.15"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.73 5.08A10.4 10.4 0 0 1 12 5c4.64 0 8.57 3.01 9.94 7.15a1 1 0 0 1 0 .7 10.75 10.75 0 0 1-1.67 3.03M6.61 6.61A10.7 10.7 0 0 0 2.06 11.65a1 1 0 0 0 0 .7C3.43 16.49 7.36 19.5 12 19.5a10.7 10.7 0 0 0 5.39-1.61M14.12 14.12a3 3 0 1 1-4.24-4.24M2 2l20 20"/></svg>
+            </button>
+          </div>
+          <p class="err" id="erro" role="alert">Senha incorreta. Confira e tente de novo.</p>
+        </div>
+      </div>
+      <button class="submit" type="submit" id="entrar">Entrar</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <div class="foot">
+    <div><b>Portal de Talentos</b><span>Copyright © 2026 Todos os Direitos Reservados Portal | Desenvolvedor - SCTI</span></div>
+    <div class="logos">
+      <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/footer/logo-bandeira-gov.svg" alt="Bandeira SC">
+      <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/footer/logo-selo-gov.svg" alt="Selo SC">
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var G=window.SCTEC_GATE;
+  // Volta para o endereço de origem (por exemplo carreira-tech/v1.0/?x=1#p=...); só aceita caminho relativo simples + ?consulta + #hash, nada de outro site.
+  var alvo=new URLSearchParams(location.search).get('next')||'';
+  var next=/^((?:\.\.\/)*(?:[a-z0-9-]+\/|v\d[\d.]*\/)*)(\?[\w=&%.-]*)?(#[\w=&%.\/-]*)?$/.test(alvo)?'./'+alvo:'./';
+  if(G.ok()){location.replace(next);return}
+
+  var f=document.getElementById('f'),campo=document.getElementById('campo'),inp=document.getElementById('senha'),
+      olho=document.getElementById('olho'),btn=document.getElementById('entrar');
+
+  olho.addEventListener('click',function(){
+    var show=inp.type==='password';
+    inp.type=show?'text':'password';
+    olho.setAttribute('aria-pressed',show);
+    olho.setAttribute('aria-label',show?'Ocultar senha':'Mostrar senha');
+  });
+  inp.addEventListener('input',function(){campo.classList.remove('bad');inp.removeAttribute('aria-invalid')});
+
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!inp.value){campo.classList.add('bad');inp.setAttribute('aria-invalid','true');inp.focus();return}
+    btn.disabled=true;
+    G.login(inp.value,true).then(function(ok){
+      if(ok){location.replace(next);return}
+      btn.disabled=false;
+      campo.classList.add('bad');inp.setAttribute('aria-invalid','true');inp.select();
+    });
+  });
+})();
+</script>
+</body>
+</html>
