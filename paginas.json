@@ -1,0 +1,18 @@
+[
+  {
+    "rota": "/empresas",
+    "titulo": "Empregabilidade: Sou empresa",
+    "slug": "empresas"
+  },
+  {
+    "rota": "/talentos",
+    "titulo": "Empregabilidade: Sou talento",
+    "slug": "talentos"
+  },
+  {
+    "rota": "/carreira-tech",
+    "titulo": "Carreira Tech",
+    "slug": "carreira-tech",
+    "versaoPropria": "1.0"
+  }
+]
