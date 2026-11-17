@@ -1,0 +1,23 @@
+/* Card Banco de Talentos (proposta v2, escuro) */
+.bt-card{text-align:left;position:relative;overflow:hidden;display:grid;grid-template-columns:5fr 6fr;gap:40px;align-items:center;margin:48px 0 0;padding:48px 48px 0;color:#fff;border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-family:Roboto,sans-serif;background:radial-gradient(60% 90% at 22% 50%,rgba(82,185,52,.38),rgba(8,15,4,0) 70%),linear-gradient(135deg,#080f04 0%,#1c231a 60%,#303030 100%)}
+.bt-card__art{position:relative;z-index:1;align-self:stretch;display:flex;align-items:flex-end;justify-content:center}
+.bt-card__person{display:block;width:auto;height:auto;max-width:80%;max-height:480px;object-fit:contain;filter:drop-shadow(0 0 28px rgba(82,185,52,.35))}
+.bt-card__text{padding-bottom:48px}
+.bt-card__text{position:relative;z-index:1}
+.bt-card__eyebrow{display:inline-flex;gap:8px;align-items:center;font:700 12px/1 Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#7ee05a}
+.bt-card__badge{background:#fff;color:#1a1a1a;border-radius:999px;padding:4px 10px;font:700 11px/1 Montserrat,sans-serif;letter-spacing:0;text-transform:none}
+.bt-card__title{margin:14px 0 12px;font:800 clamp(26px,3.2vw,40px)/1.15 Montserrat,sans-serif;color:#fff}
+.bt-card__title em{font-style:normal;background:linear-gradient(110deg,#2ca942,#8be05a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.bt-card__desc{margin:0;font-size:17px;line-height:1.6;color:#e1e4e0}
+@media(max-width:767px){.bt-card{grid-template-columns:1fr;padding:28px 20px 0;gap:24px}.bt-card__text{padding-bottom:0;order:-1}.bt-card__person{max-height:320px}.bt-card__desc{font-size:16px}}
+.bt-card__desc b{color:#fff}
+.bt-card__cta{display:inline-flex;width:fit-content;align-items:center;gap:10px;margin-top:24px;padding:14px 24px;border-radius:999px;background:linear-gradient(110deg,#2ca942,#55b13a 55%,#52b934);color:#fff;font:700 16px/1 Roboto,sans-serif;text-decoration:none;box-shadow:0 0 20px rgba(82,185,52,.45)}
+.bt-card__cta:hover,.bt-card__cta:focus-visible{color:#fff;filter:brightness(1.1);outline:2px solid #fff;outline-offset:3px}
+@media(max-width:767px){.bt-card__cta{align-self:flex-start;width:auto;max-width:100%;margin-bottom:28px}}
+/* Tags ao redor da pessoa */
+.bt-tag{position:absolute;z-index:2;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(139,224,90,.45);backdrop-filter:blur(6px);color:#fff;font:700 13px/1 Montserrat,sans-serif;white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.bt-tag svg{color:#8be05a;flex:none}
+.bt-tag--a{top:14%;left:-2%}
+.bt-tag--b{top:30%;right:-4%}
+.bt-tag--d{top:62%;left:-2%}
+@media(max-width:767px){.bt-tag{font-size:12px;padding:6px 10px}.bt-tag svg{width:14px;height:14px}.bt-tag--a{top:58%;left:0}.bt-tag--b{top:70%;right:0}.bt-tag--d{top:82%;left:4%}}

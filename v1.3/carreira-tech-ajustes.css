@@ -1441,3 +1441,18 @@ main.carreira-tech-2026 .trilha-etapas[hidden] { display: none; }
 
 /* Descrição da hero: tamanho e peso da produção, preenchendo a largura até a margem */
 main.carreira-tech-2026 .hero-intro .hero-description { width: 100%; max-width: none; font-family: Roboto, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; color: #6b7280; }
+
+/* Dúvidas: card discreto, alinhado ao restante da página */
+main.carreira-tech-2026 .apoio-row .duvidas-section__title { font-family: "Montserrat", sans-serif; font-size: 28px; line-height: 36px; color: var(--ct-ink); }
+main.carreira-tech-2026 .apoio-row .duvidas-card { gap: 16px; padding: 20px 24px; border: 1px solid var(--ct-linha); border-radius: var(--ct-raio); background: #fff; box-shadow: none; }
+main.carreira-tech-2026 .apoio-row .duvidas-card__icon { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 48px; width: 48px; height: 48px; border-radius: 50%; background: var(--ct-verde-suave); border: 1px solid var(--ct-verde-borda); color: var(--ct-verde); }
+main.carreira-tech-2026 .apoio-row .duvidas-card__text { color: var(--ct-texto); font-size: 16px; line-height: 24px; }
+main.carreira-tech-2026 .apoio-row .duvidas-card__link { color: var(--ct-verde); }
+main.carreira-tech-2026 .apoio-row .duvidas-card__link:hover { color: var(--ct-verde-escuro); }
+
+/* Lista de interesse: respiro lateral nos cards de destaque */
+@media screen and (min-width: 769px) {
+  main.carreira-tech-2026 .form-stats { max-width: 744px; gap: 16px; }
+  main.carreira-tech-2026 .form-stats-items .stat-item > span:not(.stat-icon) { font-size: 18px; line-height: 26px; }
+  main.carreira-tech-2026 .form-stats-items .stat-item { padding: 16px 20px; }
+}

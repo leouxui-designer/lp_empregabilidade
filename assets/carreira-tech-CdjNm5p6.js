@@ -15,6 +15,7 @@ var e=`<!doctype html>
 <link rel="stylesheet" href="bootstrap.min.css">
 <link rel="stylesheet" href="carreira-tech-shell.css">
 <link rel="stylesheet" href="carreira-tech-ajustes.css">
+<link rel="stylesheet" href="card-banco-talentos.css">
 </head>
 <body>
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -1773,6 +1774,20 @@ var e=`<!doctype html>
 </section>
 </div><!-- /trilha-etapas -->
             </div><!-- /trilha-escolha -->
+<aside class="bt-card" aria-labelledby="bt-title">
+  <div class="bt-card__art">
+    <img class="bt-card__person" src="banco-talentos-pessoa.png" alt="Estudante sorrindo, com um notebook nos braços" width="700" height="1001">
+    <span class="bt-tag bt-tag--a" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg>Trilha concluída</span>
+    <span class="bt-tag bt-tag--b" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>Vagas abertas</span>
+    <span class="bt-tag bt-tag--d" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>Tecnologia</span>
+  </div>
+  <div class="bt-card__text">
+    <span class="bt-card__eyebrow">Banco de Talentos</span>
+    <h3 class="bt-card__title" id="bt-title">Escolha uma trilha, conclua e <em>seja encontrado pelas empresas.</em></h3>
+    <p class="bt-card__desc">Cada trilha tem 4 etapas. Ao concluir a <b>Profissionalizar</b>, a equipe SCTEC inclui seu perfil no Banco de Talentos, onde empresas e estudantes se encontram.</p>
+    <a class="bt-card__cta" href="https://sctec.scti.sc.gov.br/empresas/#talentos">Conheça o Banco de Talentos <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</aside>
 
         </div>
     </div>
@@ -1816,7 +1831,7 @@ var e=`<!doctype html>
         <h2 class="duvidas-section__title">Dúvidas</h2>
         <div class="duvidas-card" role="region" aria-label="Como consultar dúvidas">
             <span class="duvidas-card__icon" aria-hidden="true">
-                <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/question.svg" alt="" width="80" height="80">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 17.5h.01"/></svg>
             </span>
             <p class="duvidas-card__text">
                 Para consultar as principais dúvidas sobre o Carreira Tech, acesse o menu <a href="#" class="duvidas-card__link">Dúvidas</a>.
