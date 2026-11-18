@@ -18,7 +18,8 @@
 /* Tags ao redor da pessoa */
 .bt-tag{position:absolute;z-index:2;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(139,224,90,.45);backdrop-filter:blur(6px);color:#fff;font:700 13px/1 Montserrat,sans-serif;white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.3)}
 .bt-tag svg{color:#8be05a;flex:none}
-.bt-tag--a{top:14%;left:-2%}
-.bt-tag--b{top:30%;right:-4%}
-.bt-tag--d{top:62%;left:-2%}
-@media(max-width:767px){.bt-tag{font-size:12px;padding:6px 10px}.bt-tag svg{width:14px;height:14px}.bt-tag--a{top:58%;left:0}.bt-tag--b{top:70%;right:0}.bt-tag--d{top:82%;left:4%}}
+/* Tags ancoradas pela base, abaixo do rosto (rosto fica nos ~35% de cima da foto) */
+.bt-tag--a{bottom:40%;left:-2%}
+.bt-tag--b{bottom:25%;right:-4%}
+.bt-tag--d{bottom:8%;left:-2%}
+@media(max-width:767px){.bt-tag{font-size:12px;padding:6px 10px}.bt-tag svg{width:14px;height:14px}.bt-tag--a{bottom:40%;left:0}.bt-tag--b{bottom:25%;right:0}.bt-tag--d{bottom:8%;left:4%}}
