@@ -1776,16 +1776,16 @@ var e=`<!doctype html>
             </div><!-- /trilha-escolha -->
 <aside class="bt-card" aria-labelledby="bt-title">
   <div class="bt-card__art">
-    <img class="bt-card__person" src="banco-talentos-pessoa.png" alt="Estudante sorrindo, com um notebook nos braços" width="700" height="1001">
+    <img class="bt-card__person" src="banco-talentos-pessoa.png" alt="Mulher sorrindo, com um notebook nos braços" width="737" height="1400">
     <span class="bt-tag bt-tag--a" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg>Trilha concluída</span>
     <span class="bt-tag bt-tag--b" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>Vagas abertas</span>
     <span class="bt-tag bt-tag--d" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>Tecnologia</span>
   </div>
   <div class="bt-card__text">
-    <span class="bt-card__eyebrow">Banco de Talentos</span>
-    <h3 class="bt-card__title" id="bt-title">Escolha uma trilha, conclua e <em>seja encontrado pelas empresas.</em></h3>
-    <p class="bt-card__desc">Cada trilha tem 4 etapas. Ao concluir a <b>Profissionalizar</b>, a equipe SCTEC inclui seu perfil no Banco de Talentos, onde empresas e estudantes se encontram.</p>
-    <a class="bt-card__cta" href="https://sctec.scti.sc.gov.br/empresas/#talentos">Conheça o Banco de Talentos <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <span class="bt-card__eyebrow">Empregabilidade</span>
+    <h3 class="bt-card__title" id="bt-title">Escolha uma trilha, conclua e <em>faça parte do Banco de Talentos.</em></h3>
+    <p class="bt-card__desc">Ao concluir a etapa <b>Profissionalizar</b>, a equipe SCTEC inclui seu perfil no Banco de Talentos, onde empresas e estudantes se encontram.</p>
+    <a class="bt-card__cta hero-actions__btn hero-actions__btn--primary" href="https://sctec.scti.sc.gov.br/empresas/#talentos">Conheça o Banco de Talentos <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </div>
 </aside>
 

@@ -11,8 +11,9 @@
 .bt-card__desc{margin:0;font-size:17px;line-height:1.6;color:#e1e4e0}
 @media(max-width:767px){.bt-card{grid-template-columns:1fr;padding:28px 20px 0;gap:24px}.bt-card__text{padding-bottom:0;order:-1}.bt-card__person{max-height:320px}.bt-card__desc{font-size:16px}}
 .bt-card__desc b{color:#fff}
-.bt-card__cta{display:inline-flex;width:fit-content;align-items:center;gap:10px;margin-top:24px;padding:14px 24px;border-radius:999px;background:linear-gradient(110deg,#2ca942,#55b13a 55%,#52b934);color:#fff;font:700 16px/1 Roboto,sans-serif;text-decoration:none;box-shadow:0 0 20px rgba(82,185,52,.45)}
-.bt-card__cta:hover,.bt-card__cta:focus-visible{color:#fff;filter:brightness(1.1);outline:2px solid #fff;outline-offset:3px}
+/* Visual do botão vem de .hero-actions__btn--primary; aqui só layout */
+.bt-card__cta{width:fit-content;gap:10px;margin-top:24px}
+.bt-card__cta:focus-visible{outline:2px solid #fff;outline-offset:3px}
 @media(max-width:767px){.bt-card__cta{align-self:flex-start;width:auto;max-width:100%;margin-bottom:28px}}
 /* Tags ao redor da pessoa */
 .bt-tag{position:absolute;z-index:2;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(139,224,90,.45);backdrop-filter:blur(6px);color:#fff;font:700 13px/1 Montserrat,sans-serif;white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.3)}
