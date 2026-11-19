@@ -1576,7 +1576,7 @@ var e=`<!doctype html>
 
                     <div class="curso active" data-content="14" id="curso-aperfeicoar-dev-14" role="tabpanel" aria-labelledby="aba-aperfeicoar-dev-14">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Fundamentos do Suporte Técnico:</strong> Estrutura de equipes, níveis de atendimento e responsabilidades do suporte.</li>
@@ -1589,7 +1589,7 @@ var e=`<!doctype html>
 
                     <div class="curso" data-content="15" id="curso-aperfeicoar-dev-15" role="tabpanel" aria-labelledby="aba-aperfeicoar-dev-15">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Fundamentos de Segurança:</strong> Princípios de confidencialidade, integridade e disponibilidade, além das principais ameaças cibernéticas.</li>
@@ -1601,7 +1601,7 @@ var e=`<!doctype html>
 
                     <div class="curso" data-content="16" id="curso-aperfeicoar-dev-16" role="tabpanel" aria-labelledby="aba-aperfeicoar-dev-16">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Introdução ao NoCode:</strong> Conceitos, benefícios e comparação com desenvolvimento tradicional.</li>
@@ -1666,7 +1666,7 @@ var e=`<!doctype html>
 
                     <div class="curso active" data-content="14" id="curso-aperfeicoar-dados-14" role="tabpanel" aria-labelledby="aba-aperfeicoar-dados-14">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Fundamentos do Deep Learning: </strong> Conceitos básicos de redes neurais, arquiteturas comuns e diferenças em relação ao machine learning tradicional.</li>
@@ -1678,7 +1678,7 @@ var e=`<!doctype html>
 
                     <div class="curso" data-content="15" id="curso-aperfeicoar-dados-15" role="tabpanel" aria-labelledby="aba-aperfeicoar-dados-15">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Conceitos de IA e ML:</strong> Bases teóricas de inteligência artificial e aprendizado de máquina aplicadas ao contexto analítico</li>
@@ -1742,7 +1742,7 @@ var e=`<!doctype html>
 
                     <div class="curso active" data-content="14" id="curso-aperfeicoar-ia-14" role="tabpanel" aria-labelledby="aba-aperfeicoar-ia-14">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Fundamentos de Chatbots:</strong> Conceitos principais, aplicações e tecnologias que sustentam sistemas conversacionais.</li>
@@ -1754,7 +1754,7 @@ var e=`<!doctype html>
 
                     <div class="curso" data-content="15" id="curso-aperfeicoar-ia-15" role="tabpanel" aria-labelledby="aba-aperfeicoar-ia-15">
                         <div class="etapa-curso-bloco">
-                            
+                            <p class="etapa-curso-meta">16h de duração</p>
                             <div class="ementa">
                                 <ul>
                                     <li><strong>Fundamentos e Arquitetura:</strong> O que são agentes, como funcionam ciclos de percepção, raciocínio e ação, além de uso de LLMs e engenharia de prompt.</li>
@@ -1776,10 +1776,10 @@ var e=`<!doctype html>
             </div><!-- /trilha-escolha -->
 <aside class="bt-card" aria-labelledby="bt-title">
   <div class="bt-card__art">
-    <img class="bt-card__person" src="banco-talentos-pessoa.png" alt="Mulher sorrindo, com um notebook nos braços" width="737" height="1400">
-    <span class="bt-tag bt-tag--a" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg>Trilha concluída</span>
-    <span class="bt-tag bt-tag--b" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>Oportunidades</span>
-    <span class="bt-tag bt-tag--d" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>Tecnologia</span>
+    <img class="bt-card__person" src="banco-talentos-pessoa.png" alt="Mulher sorrindo, com um notebook nos braços" width="670" height="1400">
+    <span class="bt-tag bt-tag--a" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg></span>
+    <span class="bt-tag bt-tag--b" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></span>
+    <span class="bt-tag bt-tag--d" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></span>
   </div>
   <div class="bt-card__text">
     <span class="bt-card__eyebrow">Empregabilidade</span>
