@@ -98,6 +98,23 @@ var e=`<!doctype html>
     <div class="container">
         <div class="hero-content text-center">
             <div class="hero-intro">
+            <div class="hero-intro__texto">
+            <h1 class="pagina-titulo">Carreira Tech</h1>
+            <p class="hero-description">
+                Formações especializadas em tecnologia e Inteligência Artificial. Escolha a trilha de aprendizagem de seu interesse e conheça os cursos disponíveis.
+            </p>
+
+            <div class="hero-cta">
+                <button type="button" class="btn-edital-documentos hero-cta__primary" data-bs-toggle="modal" data-bs-target="#modal-diagnostico" aria-haspopup="dialog" aria-expanded="false">
+                    <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/icon-diagnostico-trilha.svg" alt="" class="btn-edital-documentos__icon" width="17" height="23" aria-hidden="true">
+                    <span class="btn-edital-documentos__text">Descubra sua trilha Tech</span>
+                </button>
+                <a href="#" class="btn-edital-documentos btn-edital-documentos--outline-green hero-cta__button hero-cta__button--link">
+                    <span class="btn-edital-documentos__text">Editais e resultados</span>
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5H12V3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V12H19V19ZM14 3V5H17.59L7.76 14.83L9.17 16.24L19 6.41V10H21V3H14Z" fill="currentColor"/></svg>
+                </a>
+            </div>
+            </div><!-- /hero-intro__texto -->
      <section class="video-carousel" aria-label="Carrossel de vídeos da jornada">
 
     <div class="video-carousel__container">
@@ -605,23 +622,7 @@ var e=`<!doctype html>
 
     </div>
 </section>
-            <div class="hero-intro__texto">
-            <h1 class="hero-title">Carreira Tech</h1>
-            <p class="hero-description">
-                Formações especializadas em tecnologia e Inteligência Artificial. Escolha a trilha de aprendizagem de seu interesse e conheça os cursos disponíveis.
-            </p>
 
-            <div class="hero-cta">
-                <button type="button" class="btn-edital-documentos hero-cta__primary" data-bs-toggle="modal" data-bs-target="#modal-diagnostico" aria-haspopup="dialog" aria-expanded="false">
-                    <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/icon-diagnostico-trilha.svg" alt="" class="btn-edital-documentos__icon" width="17" height="23" aria-hidden="true">
-                    <span class="btn-edital-documentos__text">Descubra sua trilha Tech</span>
-                </button>
-                <a href="#" class="btn-edital-documentos btn-edital-documentos--outline-green hero-cta__button hero-cta__button--link">
-                    <span class="btn-edital-documentos__text">Editais e resultados</span>
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5H12V3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V12H19V19ZM14 3V5H17.59L7.76 14.83L9.17 16.24L19 6.41V10H21V3H14Z" fill="currentColor"/></svg>
-                </a>
-            </div>
-            </div><!-- /hero-intro__texto -->
             </div><!-- /hero-intro -->
 
             <div class="trilha-escolha">
@@ -1514,7 +1515,7 @@ var e=`<!doctype html>
             <div class="etapa-aperfeicoar-container">
 <h2 class="etapa-title"><button type="button" class="etapa-gatilho" id="etapa-4-gatilho" aria-expanded="false" aria-controls="etapa-4-corpo">
 <span class="etapa-gatilho__texto"><span class="etapa-gatilho__nome">Aperfeiçoar</span><span class="etapa-subtitulo">Cursos avançados definidos pela sua escolha no Profissionalizar</span></span>
-<span class="etapa-carga"><span class="etapa-carga__valor">48h</span></span>
+<span class="etapa-carga"><span class="etapa-carga__valor">16h a 32h</span></span>
 <svg class="etapa-gatilho__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
 </button></h2>
 <div class="etapa-corpo" id="etapa-4-corpo" role="region" aria-labelledby="etapa-4-gatilho" hidden>
@@ -2664,8 +2665,45 @@ Política de Privacidade
         </div>
     </div>
 
-    <div class="row ctn-videos">
-                                    <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="ia">
+    <div class="row ctn-videos"><div class="col-12 col-md-6 col-lg-4 mb-4" data-content="lecture">
+                        <article class="box-video">
+                                                        <a href="https://www.youtube.com/watch?v=4gP3RAWmPOQ&#038;list=PL0XLFI7J7qM7wDEH5SzyFGy7U-UUfaiXY&#038;index=2" target="_blank" rel="noopener noreferrer" class="box-img-link">
+                                                            <div class="box-img">
+                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/uploads/sites/8/2025/04/palestras-o-despertar-ciclo2.webp" alt="Thumbnail: Palestras &#8211; O Despertar" class="playlist-thumb" width="400" height="225" loading="lazy">
+                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/play.svg" alt="" class="playlist-icon" width="130" height="130" loading="lazy">
+                                                                    </div>
+                                                        </a>
+                                                        <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--2">Ciclo 2</span>
+                                <h3 class="ctn-titulo">Palestras &#8211; O Despertar</h3>
+                                                                    <p>Assista às palestras e conheça mais sobre o Mercado de Tecnologia</p>
+
+                                                                                                    <a href="https://www.youtube.com/watch?v=4gP3RAWmPOQ&#038;list=PL0XLFI7J7qM7wDEH5SzyFGy7U-UUfaiXY&#038;index=2" target="_blank" rel="noopener noreferrer" class="btn-youtube">
+                                        <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/Youtube.svg" alt="" width="24" height="24" loading="lazy">
+                                        Assistir no YouTube
+                                    </a>
+                                                            </div>
+                        </article>
+                </div><div class="col-12 col-md-6 col-lg-4 mb-4" data-content="lecture">
+                        <article class="box-video">
+                                                        <a href="https://www.youtube.com/watch?v=YrwKBVXEjC4&#038;list=PL0XLFI7J7qM4Zo6kN9aD_1vzzaVtV-u1C&#038;index=2" target="_blank" rel="noopener noreferrer" class="box-img-link">
+                                                            <div class="box-img">
+                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/uploads/sites/8/2025/02/palestras-o-despertar-ciclo1.webp" alt="Thumbnail: Palestras – O Despertar" class="playlist-thumb" width="400" height="225" loading="lazy">
+                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/play.svg" alt="" class="playlist-icon" width="130" height="130" loading="lazy">
+                                                                    </div>
+                                                        </a>
+                                                        <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--1">Ciclo 1</span>
+                                <h3 class="ctn-titulo">Palestras – O Despertar</h3>
+                                                                    <p>Assista às palestras e conheça mais sobre o Mercado de Tecnologia</p>
+
+                                                                                                    <a href="https://www.youtube.com/watch?v=YrwKBVXEjC4&#038;list=PL0XLFI7J7qM4Zo6kN9aD_1vzzaVtV-u1C&#038;index=2" target="_blank" rel="noopener noreferrer" class="btn-youtube">
+                                        <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/Youtube.svg" alt="" width="24" height="24" loading="lazy">
+                                        Assistir no YouTube
+                                    </a>
+                                                            </div>
+                        </article>
+                </div><div class="col-12 col-md-6 col-lg-4 mb-4" data-content="ia">
                         <article class="box-video">
                                                         <a href="https://www.youtube.com/watch?v=1VYCzTKUvAM&#038;list=PL0XLFI7J7qM4M15aS-myVdw0D_WRSf7Xg&#038;index=1" target="_blank" rel="noopener noreferrer" class="box-img-link">
                                                             <div class="box-img">
@@ -2674,6 +2712,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--2">Ciclo 2</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Inteligência Artificial</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Inteligência Artificial</p>
 
@@ -2683,8 +2722,7 @@ Política de Privacidade
                                     </a>
                                                             </div>
                         </article>
-                </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="data-analysis">
+                </div><div class="col-12 col-md-6 col-lg-4 mb-4" data-content="data-analysis">
                         <article class="box-video">
                                                         <a href="https://www.youtube.com/watch?v=PzziSrqrwvc&#038;list=PL0XLFI7J7qM4BGi6yLzeOUtdErvDeKt67&#038;index=1" target="_blank" rel="noopener noreferrer" class="box-img-link">
                                                             <div class="box-img">
@@ -2693,6 +2731,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--2">Ciclo 2</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Análise de Dados</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Análise de Dados</p>
 
@@ -2702,8 +2741,7 @@ Política de Privacidade
                                     </a>
                                                             </div>
                         </article>
-                </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="development">
+                </div><div class="col-12 col-md-6 col-lg-4 mb-4" data-content="development">
                         <article class="box-video">
                                                         <a href="https://www.youtube.com/watch?v=G6p9k4fY6eM&#038;list=PL0XLFI7J7qM6jDDS63jialADIP60FAxpp&#038;index=1" target="_blank" rel="noopener noreferrer" class="box-img-link">
                                                             <div class="box-img">
@@ -2712,6 +2750,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--2">Ciclo 2</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Desenvolvimento de Software</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Desenvolvimento de Software</p>
 
@@ -2722,25 +2761,10 @@ Política de Privacidade
                                                             </div>
                         </article>
                 </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="lecture">
-                        <article class="box-video">
-                                                        <a href="https://www.youtube.com/watch?v=4gP3RAWmPOQ&#038;list=PL0XLFI7J7qM7wDEH5SzyFGy7U-UUfaiXY&#038;index=2" target="_blank" rel="noopener noreferrer" class="box-img-link">
-                                                            <div class="box-img">
-                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/uploads/sites/8/2025/04/palestras-o-despertar-ciclo2.webp" alt="Thumbnail: Palestras &#8211; O Despertar" class="playlist-thumb" width="400" height="225" loading="lazy">
-                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/play.svg" alt="" class="playlist-icon" width="130" height="130" loading="lazy">
-                                                                    </div>
-                                                        </a>
-                                                        <div class="box-video-content">
-                                <h3 class="ctn-titulo">Palestras &#8211; O Despertar</h3>
-                                                                    <p>Assista às palestras e conheça mais sobre o Mercado de Tecnologia</p>
-
-                                                                                                    <a href="https://www.youtube.com/watch?v=4gP3RAWmPOQ&#038;list=PL0XLFI7J7qM7wDEH5SzyFGy7U-UUfaiXY&#038;index=2" target="_blank" rel="noopener noreferrer" class="btn-youtube">
-                                        <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/Youtube.svg" alt="" width="24" height="24" loading="lazy">
-                                        Assistir no YouTube
-                                    </a>
-                                                            </div>
-                        </article>
-                </div>
+                                    
+                            
+                            
+                            
                             <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="ia">
                         <article class="box-video">
                                                         <a href="https://www.youtube.com/watch?v=khyOxaMfH1Q&#038;list=PL0XLFI7J7qM5t7LeNAw54xgzFG6DSj3o5&#038;index=1" target="_blank" rel="noopener noreferrer" class="box-img-link">
@@ -2750,6 +2774,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--1">Ciclo 1</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Inteligência Artificial</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Inteligência Artificial</p>
 
@@ -2769,6 +2794,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--1">Ciclo 1</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Análise de Dados</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Análise de Dados</p>
 
@@ -2788,6 +2814,7 @@ Política de Privacidade
                                                                     </div>
                                                         </a>
                                                         <div class="box-video-content">
+<span class="acervo-ciclo acervo-ciclo--1">Ciclo 1</span>
                                 <h3 class="ctn-titulo">Trilha rápida &#8211; Desenvolvimento de Software</h3>
                                                                     <p>Assista às aulas introdutórias sobre a temática de Desenvolvimento de Software</p>
 
@@ -2798,25 +2825,7 @@ Política de Privacidade
                                                             </div>
                         </article>
                 </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4" data-content="lecture">
-                        <article class="box-video">
-                                                        <a href="https://www.youtube.com/watch?v=YrwKBVXEjC4&#038;list=PL0XLFI7J7qM4Zo6kN9aD_1vzzaVtV-u1C&#038;index=2" target="_blank" rel="noopener noreferrer" class="box-img-link">
-                                                            <div class="box-img">
-                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/uploads/sites/8/2025/02/palestras-o-despertar-ciclo1.webp" alt="Thumbnail: Palestras – O Despertar" class="playlist-thumb" width="400" height="225" loading="lazy">
-                                                                            <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/play.svg" alt="" class="playlist-icon" width="130" height="130" loading="lazy">
-                                                                    </div>
-                                                        </a>
-                                                        <div class="box-video-content">
-                                <h3 class="ctn-titulo">Palestras – O Despertar</h3>
-                                                                    <p>Assista às palestras e conheça mais sobre o Mercado de Tecnologia</p>
-
-                                                                                                    <a href="https://www.youtube.com/watch?v=YrwKBVXEjC4&#038;list=PL0XLFI7J7qM4Zo6kN9aD_1vzzaVtV-u1C&#038;index=2" target="_blank" rel="noopener noreferrer" class="btn-youtube">
-                                        <img src="https://sctec.scti.sc.gov.br/wp-content/themes/sc-tec/assets/img/icons/Youtube.svg" alt="" width="24" height="24" loading="lazy">
-                                        Assistir no YouTube
-                                    </a>
-                                                            </div>
-                        </article>
-                </div>
+                            
                         </div>
 </section>
         </div>
