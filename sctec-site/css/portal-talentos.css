@@ -1,0 +1,106 @@
+.portal-talentos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.portal-talentos .pe-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #303030;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.portal-talentos.is-soon {
+  cursor: not-allowed;
+}
+.portal-talentos--header, .portal-talentos--menu {
+  padding: 15px 24px;
+  border: 1px solid #1F8832;
+  border-radius: 80px;
+  background: #F2F8EB;
+  color: #1F8832;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+.portal-talentos--header:hover, .portal-talentos--menu:hover {
+  background: #1F8832;
+  color: #fff;
+}
+.portal-talentos--header.is-soon, .portal-talentos--menu.is-soon {
+  background: #e6e8e4;
+  border-color: #e6e8e4;
+  color: #5b6166;
+}
+.portal-talentos--menu {
+  display: flex;
+  margin: 16px 16px 12px;
+}
+.portal-talentos--footer {
+  color: #fff;
+}
+.portal-talentos--footer:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.portal-talentos--footer.is-soon {
+  color: #c7c7c7;
+}
+.portal-talentos--footer.is-soon:hover {
+  text-decoration: none;
+}
+.portal-talentos--footer .pe-badge {
+  background: #fff;
+  color: #22272a;
+}
+
+.topo .options {
+  align-items: center;
+  gap: 8px;
+}
+
+.topo .container-header .menu-principal ul li {
+  white-space: nowrap;
+  padding: 8px;
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  .topo .navbar.d-lg-none {
+    display: flex !important;
+  }
+  .topo .container-header.d-lg-flex {
+    display: none !important;
+  }
+}
+@media (min-width: 1400px) {
+  .topo .navbar-collapse {
+    display: none !important;
+  }
+}
+.topo .nav-links .current-menu-item > a,
+.topo .nav-links a[aria-current=page] {
+  color: #1f8832;
+  font-weight: 700;
+}
+
+.topo .navbar-collapse {
+  max-height: calc(100vh - 180px);
+  max-height: calc(100dvh - 180px);
+}
+
+.topo .navbar-toggler {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/*# sourceMappingURL=portal-talentos.css.map */

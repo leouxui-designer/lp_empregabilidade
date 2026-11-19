@@ -14,5 +14,35 @@
     "titulo": "Carreira Tech",
     "slug": "carreira-tech",
     "versaoPropria": "1.0"
+  },
+  {
+    "rota": "/inicio",
+    "titulo": "Início (Sobre o programa)",
+    "slug": "inicio"
+  },
+  {
+    "rota": "/ia-para-devs",
+    "titulo": "IA para DEVs",
+    "slug": "ia-para-devs"
+  },
+  {
+    "rota": "/ia-na-pratica",
+    "titulo": "IA na Prática",
+    "slug": "ia-na-pratica"
+  },
+  {
+    "rota": "/editais-e-resultados",
+    "titulo": "Editais e Resultados",
+    "slug": "editais-e-resultados"
+  },
+  {
+    "rota": "/duvidas",
+    "titulo": "Dúvidas",
+    "slug": "duvidas"
+  },
+  {
+    "rota": "/politica-de-privacidade",
+    "titulo": "Política de Privacidade",
+    "slug": "politica-de-privacidade"
   }
 ]

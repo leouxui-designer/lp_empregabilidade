@@ -1,0 +1,335 @@
+.editais-resultados {
+  padding-top: 120px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .editais-resultados {
+    padding-top: 100px;
+  }
+}
+
+.editais-resultados__header {
+  width: 100%;
+  max-width: 1440px;
+  padding: 40px 120px 0;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .editais-resultados__header {
+    padding: 32px 20px 0;
+  }
+}
+
+.editais-resultados__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.267;
+  letter-spacing: -1.2px;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .editais-resultados__title {
+    font-size: 28px;
+  }
+}
+
+.editais-resultados__body {
+  width: 100%;
+  max-width: 1440px;
+  padding: 40px 120px 80px;
+}
+@media screen and (max-width: 1024px) {
+  .editais-resultados__body {
+    padding: 24px 20px 64px;
+  }
+}
+
+.editais-resultados__container {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .editais-resultados__container {
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+  }
+}
+
+.editais-secao {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bfbfbf;
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-shadow: 0 2.887px 4.331px rgba(13, 10, 44, 0.06);
+}
+@media screen and (max-width: 768px) {
+  .editais-secao {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+.editais-secao__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 39.1px;
+  line-height: 48px;
+  color: #000;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .editais-secao__titulo {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.editais-secao__content {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  width: 100%;
+}
+
+.editais-tabs {
+  display: flex;
+  gap: 4px;
+  padding-left: 24px;
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  .editais-tabs {
+    padding-left: 34px;
+    padding-right: 34px;
+    gap: 4px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .editais-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .editais-tabs::after {
+    content: "";
+    flex-shrink: 0;
+    width: 34px;
+  }
+}
+
+.editais-tabs__tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 24px;
+  border: 1px solid #bfbfbf;
+  border-bottom: none;
+  border-radius: 16px 16px 0 0;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+.editais-tabs__tab:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width: 768px) {
+  .editais-tabs__tab {
+    padding: 12px 16px;
+  }
+}
+
+.editais-tabs__tab--active {
+  background: #fff;
+  border-color: #bfbfbf;
+}
+.editais-tabs__tab--active:hover {
+  background: #fff;
+}
+.editais-tabs__tab--active .editais-tabs__tab-text {
+  color: #000;
+}
+
+.editais-tabs__tab-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.editais-tabs__tab--active .editais-tabs__tab-text {
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .editais-tabs__tab-text {
+    font-size: 15px;
+  }
+}
+
+.editais-tabs__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.editais-tabs__tag svg {
+  flex-shrink: 0;
+}
+@media screen and (max-width: 768px) {
+  .editais-tabs__tag {
+    font-size: 12px;
+    padding: 3px 6px;
+    gap: 4px;
+  }
+  .editais-tabs__tag svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.editais-painel {
+  background: #fff;
+  border: 1px solid #bfbfbf;
+  border-radius: 32px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .editais-painel {
+    padding: 20px 28px;
+    border-radius: 24px;
+    gap: 16px;
+  }
+}
+
+.editais-painel--hidden {
+  display: none;
+}
+
+.editais-painel--sem-abas {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.editais-painel__periodo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.editais-painel__periodo svg {
+  flex-shrink: 0;
+}
+
+.editais-painel__periodo-texto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.editais-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.editais-card {
+  background: #fff;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  box-shadow: 0 1.197px 29.915px rgba(69, 42, 124, 0.1);
+  backdrop-filter: blur(35px);
+  transition: box-shadow 0.2s ease;
+}
+.editais-card:hover {
+  box-shadow: 0 4px 32px rgba(69, 42, 124, 0.16);
+}
+
+.editais-card__link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+@media screen and (max-width: 768px) {
+  .editais-card__link {
+    padding: 16px;
+    gap: 16px;
+  }
+}
+
+.editais-card__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.editais-card__nome {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.editais-card__data {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.editais-card__icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+/*# sourceMappingURL=editais-resultados.css.map */
